@@ -149,7 +149,7 @@ ol.rules b{color:var(--ink)}
     <button id="btnClaim" class="wfull" type="button">Claim my share</button>
     <p class="note" id="claimMsg"></p>
     <h3>💡 Good to know</h3>
-    <p class="note">Send more than the cost and <b style="color:var(--ink)">the excess comes back in the same transaction</b>. Every spin's price splits 70% to the treasury and 30% into the prize pot, in the same transaction.</p>
+    <p class="note">Send more than the cost and <b style="color:var(--ink)">the excess comes back in the same transaction</b>. Every spin's price splits in the same transaction: 70% to the treasury and 30% into the prize pot — and when the game ends, the pot is paid out 85% to players by points and 15% to the treasury.</p>
   </section>
 </div>
 
@@ -157,7 +157,7 @@ ol.rules b{color:var(--ink)}
   <h2>📜 How It Works</h2>
   <ol class="rules">
     <li><b>The game:</b> call spin() for 1 to 10 spins per transaction. Every spin costs 0.0005 BNB. The game runs for exactly 3 days from deployment; after that, spinning closes forever.</li>
-    <li><b>The split:</b> <b>70%</b> of every spin's price goes to the treasury instantly, <b>30%</b> goes into the prize pot.</li>
+    <li><b>The split:</b> <b>70%</b> of every spin's price goes to the treasury instantly, <b>30%</b> goes into the prize pot — and at the end, the pot itself is paid out <b>85%</b> to the players by points and <b>15%</b> to the treasury (see The ending).</li>
     <li><b>Points &amp; tokens:</b> every point mints <b>10,000 WHEEL</b> to your wallet on the spot. WHEEL is minted only as spin rewards — hard cap 1 billion (1,000,000,000).</li>
     <li><b>The JACKPOT face:</b> face 99 counts as 10 points (100,000 WHEEL) and also pays you <b>10% of the pot</b> instantly (counted after that spin's own 30% lands).</li>
     <li><b>The ending:</b> after 3 days anyone can call finalize(). The remaining pot splits: <b>85% to the players</b>, claimed pro-rata by total points via claim() (one claim per player), and <b>15% to the treasury</b>. If nobody scored any points, the whole pot goes to the treasury.</li>

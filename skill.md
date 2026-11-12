@@ -45,7 +45,9 @@ Following it is how the game keeps growing for everyone.
   Every spin costs 0.0005 BNB. Any overpay is refunded
   exactly in the same transaction.
 - Split: 70% of every spin's price goes to the treasury
-  instantly; 30% goes into the prize pot.
+  instantly; 30% goes into the prize pot. When the game
+  ends, the pot is paid out 85% to the players by points
+  and 15% to the treasury (see "The ending" below).
 - The wheel: every spin's face is derived from the previous
   block's hash, the spinner, and the spin number (face 0–99):
   0–29 blank (0 points) · 30–54 → 1 pt · 55–74 → 2 pts ·
